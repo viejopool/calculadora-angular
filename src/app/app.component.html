@@ -1,0 +1,28 @@
+<form name="calculator">
+  <h3>Calculadora <a href="https://siro.ec">https://siro.ec</a></h3>
+  <p>Haz algun calculo para ver el resultado.</p>
+  <input type="textfield" [(ngModel)]="resultado" name="resultado" >
+  <br>
+  <input (click)='digitoPresionado($event)' type="button" value="1" >
+  <input (click)='digitoPresionado($event)' type="button" value="2" >
+  <input (click)='digitoPresionado($event)' type="button" value="3" >
+  <input (click)='digitoPresionado($event)' type="button" value="+" >
+  <br>
+  <input (click)='digitoPresionado($event)' type="button" value="4" >
+  <input (click)='digitoPresionado($event)' type="button" value="5" >
+  <input (click)='digitoPresionado($event)' type="button" value="6" >
+  <input (click)='digitoPresionado($event)' type="button" value="-" >
+  <br>
+  <input (click)='digitoPresionado($event)' type="button" value="7" >
+  <input (click)='digitoPresionado($event)' type="button" value="8" >
+  <input (click)='digitoPresionado($event)' type="button" value="9" >
+  <input (click)='digitoPresionado($event)' type="button" value="*" >
+  <br>
+  <input (click)='digitoPresionado($event)' type="button" value="0" >
+  <input (click)='limpiar()' type="button" value="c">
+  <input (click)='digitoPresionado($event)' type="button" value="/" >
+  <input (click)='calcular()' type="button" value="=">
+  </form>
+  <footer>
+    <div>Desarrollado por Paul Vizuete</div>
+  </footer>
